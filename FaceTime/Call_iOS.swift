@@ -35,7 +35,7 @@ struct Call_iOS: View {
     @StateObject private var room = Room()
     @StateObject private var callDelegate = CallDelegateIOS()
     
-    private let url = "wss://facetime-3nvezqoq.livekit.cloud"
+    private let url = "wss://LivekitServerLink.livekit"
     private let token : String
 
     init(code: String) {
