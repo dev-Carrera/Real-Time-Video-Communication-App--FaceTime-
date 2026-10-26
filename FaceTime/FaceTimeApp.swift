@@ -15,3 +15,8 @@ struct FaceTimeApp: App {
         }
     }
 }
+
+enum AppScreen: Hashable {
+    case home
+    case call
+}
